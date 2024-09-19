@@ -29,7 +29,7 @@ export const RecipesPage: IRecipesPage = observer(() => {
   const [url, setUrl] = useState("");
 
   return (
-    <div className="container w-100 d-flex px-5">
+    <div className="container w-100 d-flex">
       <div className="recipes w-50">
         <Button
           variant="success"

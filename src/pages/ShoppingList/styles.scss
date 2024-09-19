@@ -1,0 +1,10 @@
+.shopping-list {
+  &__ingredient {
+    &:hover {
+      background-color: wheat !important;
+    }
+    &.active {
+      background-color: wheat !important;
+    }
+  }
+}
